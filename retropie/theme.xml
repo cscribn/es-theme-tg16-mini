@@ -1,30 +1,30 @@
 <theme>
-    <formatVersion>6</formatVersion>
+	<formatVersion>6</formatVersion>
+
 	<view name="system, grid">
-	
+
 		<helpsystem name="help">
 			<pos>2 2</pos>
-		</helpsystem>		
-	
+		</helpsystem>
+
 		<image name="background" extra="true">
 			<pos>0 0</pos>
 			<size>1 1</size>
 			<path>./art/background.png</path>
 			<color>ffffff</color>
 		</image>
-		
+
 	</view>
-	
-	
-	
+
 	<view name="system">
-	
+
 		<image name="background" extra="true">
 			<pos>0 0</pos>
 			<size>1 1</size>
 			<path>./art/systems.png</path>
 			<color>ffffff</color>
 		</image>
+
 		<image name="system-title" extra="true">
 			<pos>.17 .045</pos>
 			<size>.65 0</size>
@@ -33,6 +33,7 @@
 			<origin>0 0</origin>
 			<zIndex>110</zIndex>
 		</image>
+
 		<image name="help-image" extra="true">
 			<pos>.17 .88</pos>
 			<size>.65 0</size>
@@ -41,12 +42,12 @@
 			<origin>0 0</origin>
 			<zIndex>110</zIndex>
 		</image>
-		
+
 		<image name="system-bar" extra="true">
 			<pos>0.48 0.455</pos>
 			<size>0 0.1037037037037037</size>
 			<path>./art/system-bar.png</path>
-			<color>ffffff</color>		
+			<color>ffffff</color>
 			<origin>0.5 0.5</origin>
 			<zIndex>100</zIndex>
 		</image>
@@ -56,10 +57,9 @@
 			<fontSize>0.055</fontSize>
 			<color>000000</color>
 			<forceUppercase>false</forceUppercase>
-			<text>${system.fullName}</text>	
-			
+			<text>${system.fullName}</text>
 		</text>
-		
+
 		<text name="system-name" extra="true">
 			<fontPath>./art/Akzentica4FMedium.ttf</fontPath>
 			<fontSize>0.04</fontSize>
@@ -69,10 +69,10 @@
 			<size>0.725 0.07</size>
 			<alignment>center</alignment>
 			<forceUppercase>false</forceUppercase>
-			<text>${system.fullName}</text>		
+			<text>${system.fullName}</text>
 			<zIndex>110</zIndex>
-		</text>	
-		
+		</text>
+
 		<carousel name="systemcarousel">
 			<type>vertical</type>
 			<color>00000000</color>
@@ -82,8 +82,8 @@
 			<pos>0.5 0.45</pos>
 			<origin>0.5 0.5</origin>
 			<maxLogoCount>9</maxLogoCount>
-		</carousel>	
-	
+		</carousel>
+
 		<text name="systemInfo">
 			<fontPath>./art/Akzentica4FMedium.ttf</fontPath>
 			<backgroundColor>00000000</backgroundColor>
@@ -93,14 +93,13 @@
 			<color>00000000</color>
 			<alignment>right</alignment>
 			<origin>0.5 0.5</origin>
-			<zIndex>110</zIndex>			
-		</text>		
+			<zIndex>110</zIndex>
+		</text>
+
 	</view>
 
-	
 	<view name="grid">
-	
-		
+
 		<imagegrid name="gamegrid">
 			<pos>0.00322222222 0.155555555555</pos>
 			<size>0.9916666666666667 0.5777777777777778</size>
@@ -125,15 +124,15 @@
 			<backgroundImage>./art/tile-selected.png</backgroundImage>
 			<backgroundColor>ffffff</backgroundColor>
 		</gridtile>
-		
+
 		<image name="title-bar" extra="true">
 			<pos>0.5 0.66</pos>
 			<size>1 .06</size>
 			<path>./art/title-bar.png</path>
-			<color>ffffff</color>	
+			<color>ffffff</color>
 			<origin>0.5 0.5</origin>
 		</image>
-		
+
 		<text name="md_name">
 			<pos>0.5 0.658</pos>
 			<size>0.5416666666666667 0.0592592592592593</size>
@@ -141,18 +140,18 @@
 			<fontPath>./art/Akzentica4FMedium.ttf</fontPath>
 			<fontSize>0.05</fontSize>
 			<color>000000</color>
-			<forceUppercase>false</forceUppercase>			
+			<forceUppercase>false</forceUppercase>
 		</text>
 
 		<image name="help-image" extra="true">
 			<pos>0 1</pos>
 			<size>1 0</size>
 			<path>./art/help-gamelist.png</path>
-			<color>ffffff</color>	
+			<color>ffffff</color>
 			<origin>0 1</origin>
-			<zIndex>100</zIndex>			
-		</image>		
-		
+			<zIndex>100</zIndex>
+		</image>
+
 	</view>
 
 </theme>
