@@ -1,53 +1,10 @@
 <theme>
-    <formatVersion>6</formatVersion>
-    <include>./../theme.xml</include>
-	<view name="grid">
-		<image name="background" extra="true">
-			<pos>0 0</pos>
-			<size>1 1</size>
-			<path>./art/background.png</path>
-			<color>ffffff</color>
-		</image>
-	</view>
+	<formatVersion>6</formatVersion>
 
-		<view name="grid">
-		<image name="title-bar" extra="true">
-			<pos>0.5 0.66</pos>
-			<size>1 .06</size>
-			<path>./art/title-bar.png</path>
-			<color>ffffff</color>
-			<origin>0.5 0.5</origin>
-		</image>
-		<image name="players-bar" extra="true">
-			<pos>0.5 0.8</pos>
-			<size>0.5 .15</size>
-			<path>./art/players-bar.png</path>
-			<color>ffffff</color>
-			<origin>0.5 0.5</origin>
-		</image>
-		<image name="controller" extra="true">
-			<pos>0.67 0.817</pos>
-			<size>0.08 .08</size>
-			<path>./art/controller.png</path>
-			<color>ffffff</color>
-			<origin>0.5 0.5</origin>
-		</image>
+	<variables>
+		<folder>pcengine</folder>
+	</variables>
 
-		   <rating name="md_rating">
-           			 <pos>0.35 0.8</pos>
-           			 <size>0.12 0.12</size>
-			<origin>0.5 0.5</origin>
-            			<filledPath>./art/rating-full.png</filledPath>
-            			<unfilledPath>./art/rating-empty.png</unfilledPath>
-        		</rating>
-		<image name="help-image" extra="true">
-			<pos>0 1</pos>
-			<size>1 0</size>
-			<path>./art/help-gamelist.png</path>
-			<color>ffffff</color>
-			<origin>0 1</origin>
-			<zIndex>100</zIndex>
-		</image>
-</view>
+	<include>./../theme.xml</include>
 
 </theme>
