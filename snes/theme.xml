@@ -1,0 +1,10 @@
+<theme>
+	<formatVersion>6</formatVersion>
+
+	<variables>
+		<folder>snes</folder>
+	</variables>
+
+	<include>./../theme.xml</include>
+
+</theme>
