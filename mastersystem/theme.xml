@@ -2,7 +2,7 @@
 	<formatVersion>6</formatVersion>
 
 	<variables>
-		<folder>snes</folder>
+		<folder>mastersystem</folder>
 	</variables>
 
 	<include>./../theme.xml</include>
